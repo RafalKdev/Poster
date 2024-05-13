@@ -1,0 +1,20 @@
+.posts {
+  list-style-type: none;
+  margin: 1rem 4rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.error {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.fetching {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+}
