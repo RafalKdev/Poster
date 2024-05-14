@@ -1,9 +1,7 @@
 .form {
-  margin: 2rem auto;
   background-color: #6233b9;
   padding: 1rem;
   width: 40rem;
-  border-radius: 5px;
 }
 .form label {
   display: block;
