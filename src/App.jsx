@@ -3,11 +3,12 @@ import MainHeader from "./components/MainHeader";
 import PostList from "./components/PostList";
 function App() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
-  const hideModalHandler = () => {
-    setModalIsVisible(false);
-  };
   const showModalHandler = () => {
     setModalIsVisible(true);
+  };
+
+  const hideModalHandler = () => {
+    setModalIsVisible(false);
   };
 
   return (
