@@ -20,7 +20,7 @@ const PostList = ({ isPosting, onStopPosting }) => {
       )}
 
       <ul className={classes.posts}>
-        <Post author="Rafal" body="Finally I will get my first job in It" />
+        <Post author="Rafal" body="I will finally get my first job in IT" />
         <Post author="Rafal" body="Vamos Barca !!!" />
         {posts.map((post) => (
           <Post key={post.author} author={post.author} body={post.body} />
